@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    background-color: #222;
+  }
+  .form-container {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formStyle {
+    background-color: #141414;
+    /*background-color: #efefef;*/
+    border-radius: 15px;
+    padding: 6rem 4rem;
+
+    width: 450px;
+  }
+  .formStyle a {
+    color: #999898;
+  }
+  .formStyle a:hover {
+    color: #999898cc;
+  }
